@@ -1,0 +1,65 @@
+@mixin margin-for-section-576 {
+  margin: 0 20px;
+}
+
+@mixin margin-for-section-768 {
+  margin: 0 60px;
+}
+
+@mixin margin-for-section-992 {
+  margin: 0 100px;
+}
+
+@mixin margin-for-section-desktop {
+  margin: 0 200px;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@mixin flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@mixin flex-space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin flex-space-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@mixin flex-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin grid-3-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 25px;
+  margin-bottom: 30px;
+}
+
+@mixin yellow-hover-for-link {
+  transition: .5s;
+  text-decoration: none;
+  border-bottom: 2px solid $yellow;
+  padding-bottom: 5px;
+  color: $yellow;
+}

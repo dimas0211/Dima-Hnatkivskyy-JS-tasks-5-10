@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Regular.ttf')
+}
+@font-face {
+  font-family: 'Montserrat-bold';
+  src: url('../fonts/Montserrat-Bold.ttf')
+}
+@font-face {
+  font-family: 'Kaushan Script';
+  src: url('../fonts/KaushanScript-Regular.ttf')
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-LightItalic.ttf')
+}
+
+@import './_variables.scss';
+@import './_mixins.scss';
+@import './_base.scss';
+@import './_media.scss'; 
